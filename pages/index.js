@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
+import Image from 'next/image'
 
 const Home = () => {
 
@@ -132,6 +133,17 @@ const Home = () => {
         <p>Try our email writer now and see the difference it can make in your communication. Because how you say is more important than what you say!</p>
       </div>
     </div>
+    <footer>
+      Made with&nbsp;   
+      <Image
+        src="/heart.png"
+        width="16"
+        height="16"
+        alt="heart icon"
+      />
+      &nbsp;by&nbsp;
+      <a href="https://www.adityamalani.xyz/">Aditya Malani</a>
+    </footer>
     </div>
   );
 };

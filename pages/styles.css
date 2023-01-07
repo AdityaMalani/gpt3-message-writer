@@ -6,6 +6,15 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+footer {
+    color: antiquewhite;
+    padding-bottom: 20px;
+}
+
+a {
+    color: chartreuse;
+}
+
 .column {
     float: left;
     width: 45%;
@@ -412,6 +421,12 @@ textarea {
         margin-right: 0px;
         margin-left: 0px;
         margin-top: 10px;
+    }
+
+    .about-product {
+        max-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
