@@ -47,10 +47,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Online Email Writer</h1>
+            <h1>Write My Email</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Generate high quality emails using AI for free within seconds!</h2>
+            <h2>Write high quality emails using AI for free within seconds!</h2>
           </div>
         </div>
       </div>
@@ -110,11 +110,11 @@ const Home = () => {
     </div>
     <div className='row'>
       <div className="about-product">
-        <h2>What is Free Online AI Email Writer?</h2>
+        <h2>What is Write My Email?</h2>
         <p>
-        Effortlessly create professional, effective and grammatically correct emails with our free AI-powered online email writer. 
-        Simply provide a few brief points about the message you want to convey, and our artificial intelligence technology 
-        will generate a customized email with a professional subject line and engaging content. Our email writer is perfect for busy professionals 
+        Effortlessly create professional, effective and grammatically correct emails with this free AI-powered online email writer. 
+        Simply provide a few brief points about the message you want to convey, and this GPT-3 powered tool 
+        will generate a customized email with a professional subject line and engaging content. Write My Email is the perfect free online tool for busy professionals 
         looking to save time on writing emails or anyone looking to communicate more effectively. 
         Some common use cases include:
         </p>
@@ -127,7 +127,7 @@ const Home = () => {
           <li>Crafting a professional email to a client or colleague</li>
           <li>And many more...</li>
         </ul>
-        <p>Try our email writer now and see the difference it can make in your communication. Because how you say is more important than what you say!</p>
+        <p>Try Write My Email now and see the difference it can make in your communication. Because how you say is more important than what you say!</p>
       </div>
     </div>
     <footer>
