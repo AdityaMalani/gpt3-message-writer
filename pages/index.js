@@ -11,21 +11,18 @@ const Home = () => {
 
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
-    console.log(userInputContent)
-    // const response = await fetch('/api/generate', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({ userInput }),
-    // });
+    const response = await fetch('/api/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ userInputContent, userInputTo }),
+    });
 
-    // const data = await response.json();
-    // const { output } = data;
-    // console.log("OpenAI replied...", output.text)
+    const data = await response.json();
+    const { output } = data;
 
-    // setApiOutput(`${output.text}`);
-    setApiOutput("Hi [Colleague],\n\nI hope this message finds you well. My name is [Your Name] and I am a member of the [Team Name] team at [Company Name].\n\nI am reaching out to introduce myself and to connect with you regarding a project we are currently working on. Our team is responsible for revamping the BYJU's Math Concept Pages, and we are keen to ensure that the pages are optimized for search engines.\n\nAs a colleague with expertise in SEO, we believe that you would be a valuable resource to consult with on this project. Would you be available to schedule a call to discuss the SEO aspects of this project in more detail?\n\nI look forward to the opportunity to collaborate with you and to learn from your experience.\n\nBest regards,\n[Your Name]");
+    setApiOutput(`${output.text}`);
     setIsGenerating(false);
   }
 
